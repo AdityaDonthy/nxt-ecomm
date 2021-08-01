@@ -18,7 +18,7 @@ export default function Home() {
         <ul className={styles.grid}>
           {products.map((p) => {
             return (
-              <li className={styles.card}>
+              <li key={p.id} className={styles.card}>
                 <img src={p.image} alt={p.title} />
                 <a href="https://nextjs.org/docs">
                   <h2>{p.title}</h2>
