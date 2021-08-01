@@ -1,0 +1,23 @@
+[
+    {
+        "id": "price_1JJcZWFLwOQERIr8aBAiReE9",
+        "title": "Bush Painting",
+        "description": "Find in-depth information when you look close.",
+        "image": "/images/bush.png",
+        "price": 2000.00
+      },
+      {
+        "id": "price_1JJcYyFLwOQERIr8kKxE1BGL",
+        "title": "Trippy Bus",
+        "description": "Bus is used for movement and sometimes to comminicate as well?",
+        "image": "/images/bus.png",
+        "price": 1000.00
+      },
+      {
+        "id": "price_1JJcXIFLwOQERIr8tqV2a1P8",
+        "title": "Containers",
+        "description": "Containers are a rage these days, pets vs cattle ?",
+        "image": "/images/container.png",
+        "price": 250.00
+      }
+]
