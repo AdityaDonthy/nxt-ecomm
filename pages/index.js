@@ -19,7 +19,7 @@ export default function Home() {
           {products.map((p) => {
             return (
               <li key={p.id} className={styles.card}>
-                <img src={p.image} alt={p.title} />
+              <Image className={styles.image} src={p.image} alt={p.title} width={'150px'} height={'150px'}/>
                 <a href="https://nextjs.org/docs">
                   <h2>{p.title}</h2>
                   <p>{p.price} ₹</p>
